@@ -1,19 +1,259 @@
 footer {
+	position: relative;
+	margin: 0 0 0 -8px;
+	top: 8px;
+	width: 100%;
 	background-color: #326496;
-	font-family: ;
-	font-size: 31px;
+	border: solid 10px;
+	border-color: #326496;
+
+}
+
+.textmain {
+	font-family:"Oswald";
+	font-size: 15px;
+	line-height: 21px;
+	margin: 0 0 50px 0;
+	font-weight: Bold;
+}
+
+.alltext {
+	margin: 0 0 0 7%;
+}
+
+#foot {
+	margin-left: 7%;
+	height: max-content;
+}
+
+.data {
+	margin: 1% 0 0 0%;
+	font-family: "Cuprum";
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 35px;
+
+}
+
+.head {
+}
+
+.panelpar {
+	width: max-content;
+}
+
+.palka {
+	width: 52px;
+	height: 6.6px;
+	background-color: #326496;
+	border-radius: 5px;
+}
+
+.name {
+	font-size: 60px;
+	line-height: 60px;
+	font-family: "Oswald";
+	color: #326496;
+}
+
+#fthree {
+	margin: 0 0 1% 0;
+}
+
+#menu {
+	height: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#firstp {
+}
+
+.knmenu {
+	border: none;
+	background-color: white;
+}
+
+.pan {
+	position: absolute;
+	top: 60px;
+	height: 300px;
+	width: max-content;
+	margin-left: auto;
+	margin-right: 0;
+	left: 100%;
+	transform: translate(-160%, 0px);
+	z-index: 2;
+}
+
+.dom {
+	margin: 0 0 0 0;
+	position: absolute;
+	width: 100vw;
+	height: calc(100vw/1.9);
+	pointer-events: none;
+}
+
+.doms {
+	margin: 0 0 0 0;
+	position: absolute;
+	width: 100vw;
+	height: calc(100vw/2.25);
+	pointer-events: none;
+}
+
+.domdiv {
+	margin: 0 0 0 -8%;
+	width: 100vw;
+	height: calc(100vw/1.9); 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.domdivs {
+	margin: 0 0 0 -8%;
+	width: 100vw;
+	height: calc(100vw/2.25); 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.panel {
+	height: 400px;
+	width: max-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logodiv {
+	margin-top: 9%;
+	margin-left: 7%;
+	display: inline-block;
+}
+
+#logo {
+	pointer-events: none;
+}
+
+#docs {
+	pointer-events: none;
+}
+
+#lupa {
+	pointer-events: none;
+}
+
+#fad {
+ 	display: inline;
+}
+
+#sad {
+	display: inline;
+}
+
+.datapr {
+	width: max-content;
+	font-family: "Cuprum";
+	font-size: 18px;
 	color: #FFFFFF;
 	line-height: 35px;
 }
 
-.data {
-	margin: 2% 4% 0 6%;
+#datap {
+	width: max-content;
+	font-family: "Cuprum";
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 35px;
+	display: inline;
 }
 
-.datapr {
-	margin: 0 4% 0 6%;
+.recept {
+	margin-top: 7%;
+}
+
+.adres {
+}
+
+#pust {
+	height: 50px;
+	width: 100%;
 }
 
 #reception {
-	margin: 7% 4% 0 6%;
+	width: max-content;
+	font-family: "Cuprum";
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 35px;
+	display: inline;
+}
+
+.contacts {
+	margin-top: 8%;
+}
+
+.cont {
+	width: max-content;
+	font-family: "Cuprum";
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 35px;
+}
+
+.podcont {
+	margin: 3.2% 0 0 0;
+}
+
+.textcont {
+	font-family: "Cuprum";
+	font-size: 22px;
+	color: #96bee1;
+	line-height: 35px;
+}
+
+#yt {
+	top: -10px;
+}
+
+.photo {
+	margin-right: 3%;
+	display: inline-block;
+	position: relative;
+}
+
+.vsephoto {
+	margin: 6% 0 6% -3%;
+}
+
+.konec {
+	font-family: "Cuprum";
+	font-size: 14px;
+	color: #96bee1;
+	display: inline;
+}
+
+.spravka {
+	display: inline;
+
+}
+
+#snews {
+	color: #FFFFFF;
+}
+
+.tehpod {
+	font-family: "Cuprum";
+	font-size: 14px;
+	color: #96bee1;
+	display: inline;
+}
+
+.bltehpod {
+	margin: 5% 0 5% 0;
 }
